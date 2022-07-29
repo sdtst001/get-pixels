@@ -8,7 +8,7 @@ var pack          = require('ndarray-pack')
 var GifReader     = require('omggif').GifReader
 var Bitmap        = require('node-bitmap')
 var fs            = require('fs')
-var got           = require('got')
+var got           = require('got-cjs')
 var mime          = require('mime-types')
 var parseDataURI  = require('parse-data-uri')
 
